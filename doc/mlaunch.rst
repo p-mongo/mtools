@@ -185,6 +185,15 @@ parameters.
    This command will create a replica set with the name ``my_rs_1`` and will
    also store the dbpath and log files under ``./data/my_rs_1``.
 
+``--hostname HOSTNAME``
+   Override hostname for replica set configuration (default: localhost).
+
+   For example:
+
+   .. code-block:: bash
+
+      mlaunch --replicaset --hostname mdbcluster.example.com
+
 Sharding Parameters
 ^^^^^^^^^^^^^^^^^^^
 
